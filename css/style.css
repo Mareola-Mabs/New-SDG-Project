@@ -318,10 +318,17 @@ button {
 .header-area {
     width: 100%;
     background: #B70569;
-    position: fixed;
-    top: 0;
-    z-index: 20;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
 }
+
+
+
+
+  /* For WebKit-based browsers (Chrome, Safari, Edge) */
+  .header-area::-webkit-scrollbar {
+    display: none;
+  }
 
 
 
@@ -1026,6 +1033,21 @@ ul.menu_footer li a:hover {
         grid-template-columns: 1fr;
         grid-gap: 5vw;
     }
+
+    .header-area {
+        width: 100%;
+        background: #B70569;
+        position: fixed;
+        top: 0;
+        z-index: 20;
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* IE and Edge */
+    }
+
+    main{
+        margin-top: 100px;
+    }
+    
 /* 
     .perfect .titlepage h2{
         font-size: 6vw;
@@ -1048,12 +1070,11 @@ ul.menu_footer li a:hover {
 
 #banner{
     background-image: url('../images/UN0837174.jpg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #banner-h1{
     color: #FDC0E3;
-}
-
-main{
-    margin-top: 100px;
 }
