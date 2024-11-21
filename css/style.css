@@ -318,6 +318,9 @@ button {
 .header-area {
     width: 100%;
     background: #B70569;
+    position: fixed;
+    top: 0;
+    z-index: 20;
 }
 
 
