@@ -1079,6 +1079,7 @@ ul.menu_footer li a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 #banner-h1{
