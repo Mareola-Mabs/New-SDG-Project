@@ -584,8 +584,9 @@ ul.email li a i {
 /* The Impact Section */
 .impact{
     padding: 10vw;
-    padding-top: 100px;
+    padding-top: 0px;
     height: 60vw;
+    margin-top: -150px;
 }
 
 .impact iframe{
