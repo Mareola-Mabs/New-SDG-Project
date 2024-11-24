@@ -864,12 +864,6 @@ ul.email li a i {
     margin: 0 auto;
 }
 
-.main_form .send_btn:hover {
-    background: #F9BDDF;
-    transition: ease-in all 0.5s;
-    color: #B70569;
-}
-
 #request *::placeholder {
     color: #1f1d14;
     opacity: 1;
@@ -935,7 +929,7 @@ ul.top_infomation li a {
 
 
 ul.top_infomation li a:hover {
-    color: #B70569;
+    color: #fff;
 }
 
 
@@ -957,14 +951,10 @@ ul.menu_footer li a::before {
     content: "";
     width: 10px;
     height: 10px;
-    background: #B70569;
+    background: #fff;
     top: 5px;
     border-radius: 20px;
     left: -20px;
-}
-
-ul.menu_footer li a:hover {
-    color: #B70569;
 }
 
 
