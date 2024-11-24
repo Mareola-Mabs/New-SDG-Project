@@ -1047,6 +1047,8 @@ ul.menu_footer li a:hover {
     main{
         margin-top: 100px;
     }
+
+
     
 /* 
     .perfect .titlepage h2{
@@ -1073,6 +1075,7 @@ ul.menu_footer li a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: auto;
 }
 
 #banner-h1{
