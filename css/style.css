@@ -886,7 +886,7 @@ ul.email li a i {
 .footer {
     margin-top: 90px;
     padding-top: 90px;
-    background: #252525;
+    background: #B70569;
     text-align: center;
     position: relative;
 }
@@ -984,9 +984,9 @@ ul.menu_footer li a:hover {
 .subsci_btn {
     font-size: 16px;
     transition: ease-in all 0.5s;
-    background-color: #B70569;
+    background-color: #fff;
     text-transform: uppercase;
-    color: #fff;
+    color: #B70569;
     display: block;
     font-weight: normal;
     line-height: 48px;
