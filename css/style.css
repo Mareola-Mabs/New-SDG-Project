@@ -586,7 +586,6 @@ ul.email li a i {
     padding: 10vw;
     padding-top: 0px;
     height: 60vw;
-    margin-top: -150px;
 }
 
 .impact iframe{
@@ -1010,9 +1009,11 @@ ul.menu_footer li a:hover {
 
     .impact{
         padding: 10vw;
-        padding-top: 100px;
+        padding-top: 0px;
         height: 70vw;
+        margin-top: -50px;
     }
+    
 
     .impact_text .impact_text-container{
         display: flex;
