@@ -1075,7 +1075,7 @@ ul.menu_footer li a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: auto;
+    height: 80vh;
 }
 
 #banner-h1{
