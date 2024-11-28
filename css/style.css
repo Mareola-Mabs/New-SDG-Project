@@ -1139,6 +1139,17 @@ ul.menu_footer li a::before {
         margin-top: 100px;
     }
 
+    /* Brands that */
+.brands_that{
+    transform: translateX(100%);
+    transition: 1s;
+}
+
+.brands_that.move{
+    transform: translateX(0%);
+}
+
+
 
     
 /* 
@@ -1157,6 +1168,17 @@ ul.menu_footer li a::before {
     .perfect .titlepage h2{
         font-size: 6vw;
     } */
+
+    /* Brands that */
+.brands_that{
+    transform: translateX(100%);
+    transition: 1s;
+}
+
+.brands_that.move{
+    transform: translateX(0%);
+}
+
 
 
     .about__desc-container{
