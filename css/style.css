@@ -1162,6 +1162,15 @@ ul.menu_footer li a::before {
         gap: 5vh;
     }
 
+    .about__desc{
+        margin-bottom: 100px;
+        padding-inline: 5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
     
 }
 
