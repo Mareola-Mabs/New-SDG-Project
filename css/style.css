@@ -1161,6 +1161,7 @@ ul.menu_footer li a::before {
         padding-inline: 5vw;
         padding-block: 7vh;
         gap: 5vh;
+        box-shadow: inset 5px 5px 5px pink, inset -5px -5px 5px pink;
     }
 
     .about__desc{
