@@ -1060,7 +1060,7 @@ ul.menu_footer li a::before {
     justify-content: center;
     align-items: center;
     padding-inline: 5vw;
-    padding-block: 25vh;
+    padding-block: 20vh;
     gap: 5vh;
 }
 
