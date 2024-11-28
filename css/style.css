@@ -581,6 +581,8 @@ ul.email li a i {
 
 /** end perfect section **/
 
+
+
 /* The Impact Section */
 .impact{
     padding: 10vw;
@@ -1037,6 +1039,46 @@ ul.menu_footer li a::before {
 .portfolio_page .footer {
     margin-top: 60px;
 }
+
+/* About Desc */
+.about__desc{
+    margin-bottom: 100px;
+    padding-inline: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.about__desc-container{
+    background: #B70569;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 5vw;
+    padding-block: 25vh;
+    gap: 5vh;
+}
+
+.about__desc-container p{
+    color: #fff;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.about__desc-container p.about__desc-text1{
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+.about__desc-container p.about__desc-text2{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
 
 
 /* For Responsiveness */
