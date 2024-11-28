@@ -361,17 +361,17 @@ ul.top_info li {
     padding-bottom: 15px;
     display: inline-block;
     font-size: 16px;
-    color: #dfdcdc;
+    color: #fff;
 }
 
 ul.top_info li i {
     margin-right: 5px;
-    color: #dfdcdc;
+    color: #fff;
     text-align: center;
     font-size: 16px;
 }
 ul.top_info li a {
-    color: #dfdcdc;
+    color: #fff;
 }
 
 ul.top_info li a:hover {
