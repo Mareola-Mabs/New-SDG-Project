@@ -19,7 +19,16 @@ brands_that.forEach(
     sliders =>{
         observer.observe(sliders)
     }
-)
+);
+
+const about_link = document.querySelectorAll('.about__link')
+about_link.forEach(item=>item.addEventListener('click',()=>{
+    brands_that.forEach(item=>{
+        item.classList.add("move")
+    })
+}))
+
+
 // about.forEach(
 //     abouts =>{
 //         observer.observe(abouts)
