@@ -28,7 +28,8 @@ about_link.forEach(item=>item.addEventListener('click',()=>{
         item.style.transition="0s"
         
     })
-}))
+}));
+
 
 
 // about.forEach(
