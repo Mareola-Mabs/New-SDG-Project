@@ -1080,6 +1080,16 @@ ul.menu_footer li a::before {
     line-height: 2.5rem;
 }
 
+/* Brands that */
+.brands_that{
+    transform: translateX(100%);
+    transition: 1s;
+}
+
+.brands_that.move{
+    transform: translateX(0%);
+}
+
 
 
 /* For Responsiveness */
