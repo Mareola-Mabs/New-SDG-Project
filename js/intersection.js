@@ -25,6 +25,8 @@ const about_link = document.querySelectorAll('.about__link')
 about_link.forEach(item=>item.addEventListener('click',()=>{
     brands_that.forEach(item=>{
         item.classList.add("move")
+        item.style.transition="0s"
+        
     })
 }))
 
