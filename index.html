@@ -919,7 +919,6 @@
       content="Equality Advocates - Advocating gender equality across Africa"
     />
     <link rel="apple-touch-icon" href="/logo192.png" />
-    <link rel="manifest" href="https://shecodeafrica.org/manifest.json" />
     <title>Equality Advocates</title>
     <link href="./css/main.acfe7449.css" rel="stylesheet" type="text/css" />
 
@@ -938,10 +937,17 @@
     />
     <link rel="stylesheet" href="./css/bootstrap-datepicker.min.css" />
 
-    <script
-      src="https://kit.fontawesome.com/9b613d8fc7.js"
-      crossorigin="anonymous"
-    ></script>
+    <!-- Swiper Js -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/swiper.css" type="text/css" />
+
+    <!-- End of Swiper Js -->
+
+    <script src="https://kit.fontawesome.com/9b613d8fc7.js" crossorigin="anonymous"></script>
 
     <meta charset="utf-8" data-rh="true" />
     <meta
@@ -1029,8 +1035,16 @@
                     <li><a class="active" href="index.html">Home</a></li>
                     <li><a href="#about__uss" class="about__link">About</a></li>
                     <li><a href="#blog__page" class="about__link">Blog</a></li>
-                    <li><a href="#testimonial__page" class="about__link">testimonial</a></li>
-                    <li><a href="#contact__page" class="about__link">Contact us</a></li>
+                    <li>
+                      <a href="#testimonial__page" class="about__link"
+                        >testimonial</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#contact__page" class="about__link"
+                        >Contact us</a
+                      >
+                    </li>
                   </ul>
                   <button class="nav-toggler">
                     <span></span>
@@ -1088,7 +1102,7 @@
                     fill="currentColor"
                     d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"
                   ></path></svg></a
-              ><a 
+              ><a
                 class="bg-white text-sm font-medium rounded-lg border border-primary-main-pink py-[14px] pl-[32px] pr-[38px] transition duration-300 hover:bg-primary-main-pink donate focus:outline-none focus:ring-8 focus:ring-tutu about__link"
                 href="#about__uss"
                 >Read More&nbsp;<svg
@@ -2691,7 +2705,8 @@
             </section>
             <section
               class="w-full flex flex-col-reverse md:flex-col 2md:flex-row 2md:justify-between mt-[80px] md:mt-[110px] 2md:items-center gap-10 mx-auto brands_that"
-             id="about__uss">
+              id="about__uss"
+            >
               <div class="text-wrapper py-5 w-full 2md:max-w-[400px]">
                 <div
                   class="who-are-we-caption w-full mb-5 text-center 2md:text-left"
@@ -2760,10 +2775,17 @@
         <div class="about__desc brands_that">
           <div class="about__desc-container">
             <p class="about__desc-text1">
-              Equality Advocates is an SDG group dedicated to achieving SDG:5 by advocating for gender equality and empowering women and girls. Our work focuses on creating opportunities for women to thrive and raising awareness to promote inclusivity and equal rights for all.
+              Equality Advocates is an SDG group dedicated to achieving SDG:5 by
+              advocating for gender equality and empowering women and girls. Our
+              work focuses on creating opportunities for women to thrive and
+              raising awareness to promote inclusivity and equal rights for all.
             </p>
             <p class="about__desc-text2">
-              We are committed to ending all forms of discrimination and harmful practices against women and girls, including violence. Through education, counseling, and support, we provide knowledge on human rights, sexual health, and equality to foster empowerment and societal progress.
+              We are committed to ending all forms of discrimination and harmful
+              practices against women and girls, including violence. Through
+              education, counseling, and support, we provide knowledge on human
+              rights, sexual health, and equality to foster empowerment and
+              societal progress.
             </p>
           </div>
         </div>
@@ -2782,8 +2804,6 @@
         </div>
         <!-- End of Impact -->
 
-        
-
         <section class="w-full py-5 mt-[-10px]">
           <div class="w-90 mx-auto">
             <div class="w-full text-center">
@@ -2794,10 +2814,12 @@
               </h2>
 
               <p class="leading-[24px] mt-2 text-base mx-auto max-w-[541px]">
-               End all forms of discrimination against women and girls, including violence and harmful practices.
+                End all forms of discrimination against women and girls,
+                including violence and harmful practices.
               </p>
               <p class="leading-[24px] mt-2 text-base mx-auto max-w-[541px]">
-                Ensure women participate fully in leadership at all levels of political, economic, and public life.
+                Ensure women participate fully in leadership at all levels of
+                political, economic, and public life.
               </p>
             </div>
             <div
@@ -2819,7 +2841,8 @@
                       Academy
                     </h3>
                     <p class="leading-[24px] text-center sm:text-left mt-3">
-                      Offering education, counseling, and support on topics like human rights, sexual health, and equality education.
+                      Offering education, counseling, and support on topics like
+                      human rights, sexual health, and equality education.
                     </p>
                     <a
                       class="join__link w-full flex items-center justify-end mt-2 capitalize text-base md:text-lg text-primary-main-pink cursor-pointer focus:outline-none focus:ring focus:ring-tutu"
@@ -2938,8 +2961,9 @@
                       Our Initiative
                     </h3>
                     <p class="leading-[24px] text-center sm:text-left mt-3">
-                      As a SDG group focused on goal 5: Gender Equality, we
-                      aim at bridging the gap in gender equality, starting from Primary and Secondary schools.
+                      As a SDG group focused on goal 5: Gender Equality, we aim
+                      at bridging the gap in gender equality, starting from
+                      Primary and Secondary schools.
                     </p>
                     <a
                       class="join__link w-full flex items-center justify-end mt-2 capitalize text-base md:text-lg text-primary-main-pink cursor-pointer focus:outline-none focus:ring focus:ring-tutu"
@@ -2988,7 +3012,8 @@
               <p
                 class="text-base md:text-2xl font-normal mt-6 leading-8 text-center 2md:text-left"
               >
-                Equality Advocates: we’re aimed at bridging the gap in gender equality, starting from Primary and Secondary schools 
+                Equality Advocates: we’re aimed at bridging the gap in gender
+                equality, starting from Primary and Secondary schools
               </p>
               <div class="flex mt-10 justify-center 2md:justify-start">
                 <a
@@ -3056,6 +3081,115 @@
           </div>
         </section>
       </main>
+
+      <!-- The Testimonial -->
+
+      <div class="testimonial" id="testimonial__page">
+        <h1>Testimonials</h1>
+        <div class="slider__quotes1">
+          <i class="fa-solid fa-quote-right"></i>
+        </div>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div
+            class="swiper-wrapper"
+            slides-per-view="3"
+            speed="500"
+            loop="true"
+            css-mode="true"
+            navigation="true"
+            pagination="true"
+          >
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="slider__image">
+                <img src="./test_images/images (1).jpg" alt="Testimonial1">
+              </div>
+              <div class="slider__text">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                  maiores deserunt facere consequuntur labore porro aliquam
+                  nesciunt accusantium corrupti soluta.
+                </p>
+              </div>
+              <div class="slider__quotes">
+                <i class="fa-solid fa-quote-right"></i>
+              </div>
+              <div class="slider__name">
+                <h4>Adele Damilola</h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="slider__image">
+                <img src="./test_images/images (2).jpg" alt="Testimonial1">
+              </div>
+              <div class="slider__text">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                  maiores deserunt facere consequuntur labore porro aliquam
+                  nesciunt accusantium corrupti soluta.
+                </p>
+              </div>
+              <div class="slider__quotes">
+                <i class="fa-solid fa-quote-right"></i>
+              </div>
+              <div class="slider__name">
+                <h4>Adele Damilola</h4>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider__image">
+                <img src="./test_images/images (3).jpg" alt="Testimonial1">
+              </div>
+              <div class="slider__text">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                  maiores deserunt facere consequuntur labore porro aliquam
+                  nesciunt accusantium corrupti soluta.
+                </p>
+              </div>
+              <div class="slider__quotes">
+                <i class="fa-solid fa-quote-right"></i>
+              </div>
+              <div class="slider__name">
+                <h4>Adele Damilola</h4>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider__image">
+                <img src="./test_images/images (1).jpg" alt="Testimonial1">
+              </div>
+              <div class="slider__text">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                  maiores deserunt facere consequuntur labore porro aliquam
+                  nesciunt accusantium corrupti soluta.
+                </p>
+              </div>
+              <div class="slider__quotes">
+                <i class="fa-solid fa-quote-right"></i>
+              </div>
+              <div class="slider__name">
+                <h4>Adele Damilola</h4>
+              </div>
+            </div>
+            
+
+
+          </div>
+
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+
+      <!-- End of Testimonial -->
 
       <!-- contact -->
       <div class="contact brands_that" id="contact__page">
@@ -3157,8 +3291,16 @@
                     <li><a class="active" href="index.html">Home</a></li>
                     <li><a href="#about__uss" class="about__link">About</a></li>
                     <li><a href="#blog__page" class="about__link">Blog</a></li>
-                    <li><a href="#testimonial__page" class="about__link">testimonial</a></li>
-                    <li><a href="#contact__page" class="about__link">Contact us</a></li>
+                    <li>
+                      <a href="#testimonial__page" class="about__link"
+                        >testimonial</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#contact__page" class="about__link"
+                        >Contact us</a
+                      >
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -3247,5 +3389,7 @@
     </script>
     <script src="./js/join.js"></script>
     <script src="./js/intersection.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
   </body>
 </html>

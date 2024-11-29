@@ -1,0 +1,130 @@
+
+
+.swiper {
+    width: 100%;
+    box-shadow: 3px 3px 3px rgba(183, 5, 105, .5), -3px -3px 3px rgba(183, 5, 105, .5);
+    padding: 5vh;
+    padding-top: 10vh;
+    border-radius: 20px;
+  }
+
+
+  .swiper-pagination-bullet {
+    background-color: pink !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: #B70569 !important;
+}
+  .testimonial{
+    width: 100%;
+    padding: 10vw;
+  }
+
+  .testimonial h1{
+    text-align: center;
+    font-weight: bold;
+    color: #B70569;
+    font-size: 3.5rem;
+  }
+
+  .slider__quotes1 i{
+    font-size: 7rem;
+    color: pink;
+  }
+
+  .slider__quotes1{
+    text-align: center;
+    margin-bottom: 3vh;
+  }
+
+  .swiper-slide{
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    justify-content: center;
+    align-items: center;
+    padding: 10vw;
+    padding-bottom: 5vw;
+    padding-top: 0px;
+  }
+
+  .swiper-slide p{
+    text-align: center;
+    color: #B70569;
+  }
+
+  .swiper-slide h4{
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #B70569;
+  }
+
+.swiper img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+  .swiper .swiper-button-prev,.swiper-button-next{
+    color: #fff;
+    background: #B70569;
+    padding: 40px;
+  }
+
+  .slider__quotes i{
+    font-size: 3rem;
+    color: pink;
+  }
+
+  @media only screen and (max-width:700px){
+
+    :root {   --swiper-navigation-size: 20px;}
+    
+    .slider__quotes i{
+      font-size: 1rem;
+    }
+
+    .swiper .swiper-button-prev,.swiper-button-next{
+      color: #fff;
+      background: #B70569;
+      padding: 20px;
+    }
+
+    .swiper img{
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+    }
+
+    .swiper {
+      width: 100%;
+      box-shadow: 3px 3px 3px rgba(183, 5, 105, .5), -3px -3px 3px rgba(183, 5, 105, .5);
+      padding: 2vh;
+      border-radius: 20px;
+    }
+  
+    .testimonial{
+      width: 100%;
+      padding: 5vw;
+      margin-top: 10vh;
+    }
+
+  
+    .swiper-slide{
+      display: flex;
+      flex-direction: column;
+      gap: 3vw;
+      justify-content: center;
+      align-items: center;
+      padding: 7vw;
+      padding-bottom: 5vw;
+      padding-top: 0px;
+    }
+
+    .swiper-slide p{
+      text-align: center;
+      color: #B70569;
+      font-size: 1rem;
+    }
+  
+  }
