@@ -1195,10 +1195,17 @@ ul.menu_footer li a::before {
 
 @media only screen and (max-width:600px){
 
-    .blog{grid-template-columns: repeat(1, 1fr);}
+    .blog{grid-template-columns: repeat(1, 1fr);
+        padding: 9vw;}
+
     #contact__page1{
         padding-top: 10px;
     }
+
+    .blog a{
+        border: 2px dotted #B70569;
+    }
+    
 /* 
     .perfect .titlepage h2{
         font-size: 6vw;
