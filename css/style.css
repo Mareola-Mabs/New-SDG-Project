@@ -738,6 +738,47 @@ ul.email li a i {
     right: 0;
 }
 
+/* The Blog */
+.blog{
+width: 100%;
+padding: 7vw;
+padding-bottom: 0px;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 30px;
+margin-top: 50px;
+}
+
+.blog a{
+    padding: 20px;
+    border-radius: 20px;
+    background: #fff;
+}
+
+.blog img{
+    border-radius: 20px;
+}
+
+.blog a:hover{
+    border: 2px solid #B70569;
+}
+
+.blog__text p{
+    color: #B70569;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    width: 70%;
+    font-size: 1.3rem;
+}
+
+.blog__text{
+    display: flex;
+    justify-content: center;
+}
+/* End of Blog */
+
+
 .combined .titlepage {padding-bottom:0;}
 .combined .titlepage h2 {color: #fff;}
 .combined .titlepage p {color: #fff; padding-top: 20px; padding-bottom: 30px;}
@@ -1096,6 +1137,8 @@ ul.menu_footer li a::before {
 
 @media only screen and (max-width:900px){
 
+    .blog{grid-template-columns: repeat(2, 1fr);}
+
     .impact{
         padding: 10vw;
         padding-top: 0px;
@@ -1151,6 +1194,8 @@ ul.menu_footer li a::before {
 }
 
 @media only screen and (max-width:600px){
+
+    .blog{grid-template-columns: repeat(1, 1fr);}
     #contact__page1{
         padding-top: 10px;
     }
