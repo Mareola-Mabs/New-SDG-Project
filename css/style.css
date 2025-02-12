@@ -1259,14 +1259,20 @@ ul.menu_footer li a::before {
 }
 
 #img1{
-    background-image: url('../images/IMG_5287.jpg');
+    background-image: url('../images/others/Media\ \(12\).jfif');
+    background-size: cover;
 }
 #img2{
-    background-image: url('../images/IMG_8906.jpg');
-}
-#img4{
-    background-image: url('../images/IMG_5287.jpg');
+    background-image: url('../images/others/Media\ \(30\).jfif');
+    background-size: cover;
 }
 #img3{
-    background-image: url('../images/IMG_8906.jpg');
+    background-image: url('../images/others/Media\ \(14\).jfif');
+    background-size: cover;
+}
+#img4{
+    background-image: url('../images/others/Media\ \(8\).jfif');
+    background-size: cover;
+    background-position: top;
+
 }
